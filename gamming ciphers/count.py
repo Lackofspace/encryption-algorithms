@@ -1,0 +1,16 @@
+s = 'glypwjzsjgwbuzripawjldyqarkkoamnzurpqmzsiqdijaqfpwyleqrwsslpstkxsjkuplceuwgyzsxfwqirxckozfqqrsipvucelzckkovuawiglmrocwfyhcpvrwpiulsfsvisjrvucxyjrsxdagbwurowlpfvdvpwohrqnjmnkzuopcogwlnijehpxcmlchylcwrwbudbhakagxdipooegyxfafuhfmaagtdxpgjyzqkagnschcwjkqrokvcwbvwgspgkcdxafeqylcelqashbsdycdsexcngfumsklikhbpggsuhfmaagkkkxawbkdvorksrfrsrdsixcmlcvzjrjpaelhxgwnoulyayrsjlxwraourpgmjbvfdmlcqreviqpvvzvelyoelxxsnbshrsmgsulxxmpvvlxxcnbvwewswzcbgmrdhyhkmbktrfkfjaprvsgyhzpwrilswwlswycsehbmajodhpsppvvpkmliskkyhzukylmlyszrqswqahlslyrpvvwovkswwlkwuazcdcxfahvfrrmhcxbsxqazwkkwcrccyohoqwkhkfgpgzqmigpkrvpmpohtrsrczwedlsspoegswlkklvohkkfvebsyzzpskvreqlokvjuppwrieabvukpnqpclmxmisrqkagzsidxkcktnlbijagjfyqkqbzfkxgkbkhmllkzfjsiqswwlewcodvurenohyhwsqpjzvsfjaarqsjcohrwsslktnlpmgohyhmsdbsvvrsnhogwytrqbvgmspzzvvcpwebkrkajwbrqnlcjqvlxxmpvvzyvjzkzgoacxplwcskadyrxisosivwmedhrocszarflxkgpppzsjgrczsfsgysfyovrdszqdipjsksbsrkqfozlmjsjhxezhslvovqpcjsoeipcfwripojzddlcebkhbrcphyhsransrvsrewjrlvezezzwisdswwlwiyjgkkkxnacgooagpvmrstndcehcgyjijhdlciafuoelzafuopggsdrlmjadyrxiqpocnsreswkkpvgabuvkrbyccooeeqsjrfippvvlxxcnbvwpvmihyhcekaqfipicovfssrudwtkdlcuqfqxiaphyhsvjwdkrzwrkhyhgsphrnlniuapnlpmgoijhnmlioebyxfafrszpgyoklyrqwgnhvpqkavwopcrwjlyrqwfvjymlckzisejhcnlxktesnhbwrkkrqnipwpfxdxfawikyyqagnldlrdszuyallciwkfjagtuoilocehmskloebbiaabkoisdbsihneawavukxfwhtrxrcyhjwyxfawewovlahmlkagbwrovsuebxsosnhskroqyezgkyxmohfibmcjrjdxhakzchkksagulbiapzpibskpvvlbgyisidcekkfvperbwbveexuervvzvcwrlvosdswwlswgjqfpwyleq'
+l = []
+a = ''
+for i in range(len(s)):
+    a += s[i]
+    if len(a) == 7:
+        l.extend([a])
+        a = ''
+# counter = 0
+# for i in l:
+#     if i[6] == 'z':
+#         counter += 1
+# print(counter)
+print(len(l))
+        
+        
